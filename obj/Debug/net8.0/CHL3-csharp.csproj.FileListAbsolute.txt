@@ -1,0 +1,14 @@
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\bin\Debug\net8.0\CHL3-csharp.exe
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\bin\Debug\net8.0\CHL3-csharp.deps.json
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\bin\Debug\net8.0\CHL3-csharp.runtimeconfig.json
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\bin\Debug\net8.0\CHL3-csharp.dll
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\bin\Debug\net8.0\CHL3-csharp.pdb
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\CHL3-csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\CHL3-csharp.AssemblyInfoInputs.cache
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\CHL3-csharp.AssemblyInfo.cs
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\CHL3-csharp.csproj.CoreCompileInputs.cache
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\CHL3-csharp.dll
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\refint\CHL3-csharp.dll
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\CHL3-csharp.pdb
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\CHL3-csharp.genruntimeconfig.cache
+C:\Users\crist\Desktop\FIAP 2\Challenge\CHL3-csharp\obj\Debug\net8.0\ref\CHL3-csharp.dll
