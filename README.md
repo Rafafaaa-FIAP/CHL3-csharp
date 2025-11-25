@@ -1,91 +1,92 @@
-# Sistema de Registro de Pedidos - Delivery
+# 🩺 Sistema de Registro de Atividades de Saúde (Console em C#)
 
-Este projeto é um sistema simples em **C# Console Application** para registrar pedidos de delivery utilizando **arrays estáticos**, sem limite de quantidade pré-definido além da capacidade natural do array.
+Este projeto é uma aplicação **console em C#** desenvolvida para registrar, organizar e visualizar informações relacionadas a atividades de saúde, como:
 
----
+- Minutos de exercício
+- Litros de água ingeridos
+- Horas de sono
 
-## 🧩 Tema do Projeto
-O projeto representa um sistema básico de controle de pedidos de delivery. Ele simula operações essenciais como:
-- Cadastro de pedidos
-- Listagem dos pedidos existentes
-- Busca por pedidos específicos
-- Exclusão de pedidos
-- Armazenamento em arrays simples
-
-Esse modelo pode servir como base para o desenvolvimento de sistemas mais complexos, como:
-- Aplicações Desktop,
-- APIs REST,
-- Integração com bancos de dados,
-- Sistemas de gestão de restaurantes.
+O programa foi desenvolvido utilizando **arrays internos**, conforme requisitos acadêmicos, e possui expansão automática de capacidade.
 
 ---
 
 ## 📌 Funcionalidades
-- Registrar pedidos contendo:
-  - Nome do cliente  
-  - Item pedido  
-  - Valor  
-  - Data no formato **DD/MM/YYYY**
-- Listar todos os pedidos
-- Pesquisar pedido por cliente
-- Excluir pedido por índice
-- Arrays dinâmicos (sem limitação artificial)
-- Código totalmente comentado
+
+### ✅ **1. Adicionar registro**
+O usuário informa:
+- Tipo de atividade  
+- Data no formato **DD/MM/YYYY**  
+- Valor numérico (minutos, litros ou horas)  
+
+Os dados são validados antes de serem salvos.
 
 ---
 
-## 📦 Requisitos
-- **Windows**, **Linux** ou **macOS**
-- **.NET SDK 8.0** ou superior
-- Editor recomendado:
-  - Visual Studio 2022  
-  - Visual Studio Code  
-  - Rider
+### ✅ **2. Listar registros**
+Exibe todos os registros cadastrados em ordem.
 
 ---
 
-## ▶️ Como executar
+### ✅ **3. Exibir estatísticas**
+Para cada tipo de atividade, o programa mostra:
+- Soma total dos valores
+- Média dos valores registrados
 
-### 1. Criar o projeto
-No terminal:
-```bash
-dotnet new console -n SistemaDelivery
+---
+
+### ✅ **4. Sair**
+Encerra a aplicação.
+
+---
+
+## 🧱 Estrutura e Requisitos Atendidos
+
+| Requisito | Atendido | Descrição |
+|----------|----------|-----------|
+| Métodos/funções organizadas | ✔ | Cada funcionalidade tem seu próprio método |
+| Validação de entradas | ✔ | Verificação de números, formatos e dados |
+| Interface clara | ✔ | Menu organizado com feedback visual |
+| Uso de arrays internos | ✔ | Arrays dinâmicos com expansão automática |
+
+---
+
+## 🚀 Como executar o projeto
+
+### 1. Abra o Visual Studio  
+Versão recomendada: **Visual Studio 2022**
+
+### 2. Crie um novo projeto
+- Tipo: **Console Application (.NET 6 ou superior)**
+
+### 3. Substitua o conteúdo do `Program.cs`
+Cole o código fornecido neste repositório.
+
+### 4. Execute
+Pressione **F5** ou clique em **Run ▶**.
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+- **C# .NET 6+**
+- Console Application
+- Arrays internos com `Array.Resize`
+- `DateTime.TryParseExact` para validação de datas
+
+---
+
+## 📦 Expansão Automática de Registros
+
+Embora arrays tenham tamanho fixo, este projeto implementa expansão automática:
+
+```csharp
+Array.Resize(ref tipos, novoTamanho);
 ```
 
-Entre no diretório:
-```bash
-cd SistemaDelivery
-```
+Isso garante capacidade ilimitada sem usar List<>.
 
-Substitua o conteúdo do `Program.cs` pelo código fornecido anteriormente.
-
----
-
-### 2. Executar o sistema
-```bash
-dotnet run
-```
-
----
-
-## 🛠 Estrutura de Arquivos
-```
-SistemaDelivery/
-│-- Program.cs
-│-- README.md
-```
-
----
-
-## 👨‍💻 Autor
-Projeto solicitado por estudante de Engenharia de Software para trabalho acadêmico.
-
----
-
-## 📝 Observações
-Sinta-se à vontade para expandir este projeto adicionando:
-- Persistência em arquivos JSON
-- Banco de dados SQL
-- Interface gráfica (WinForms/WPF)
-- API Web (ASP.NET Core)
-
+##  Integrantes
+* RM553377 - Enzo Rodrigues
+* RM553266 - Hugo Santos
+* RM553384 - Maria Julia
+* RM553521 - Rafael Cristofali
